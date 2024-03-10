@@ -25,7 +25,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Halftone Theme",
+        "label": "Halftone",
         "uiTheme": "vs",
         "path": "./themes/Halftone Theme-color-theme.json"
       }
