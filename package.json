@@ -1,0 +1,30 @@
+{
+  "name": "halftone-theme",
+  "displayName": "Halftone Theme",
+  "description": "Theme inspired by the monochrome halftone technique",
+  "version": "0.0.1",
+  "publisher": "ive",
+  "keywords": [
+    "theme",
+    "color-theme",
+    "light",
+    "minimalistic",
+    "monochrome"
+  ],
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Halftone Theme",
+        "uiTheme": "vs",
+        "path": "./themes/Halftone Theme-color-theme.json"
+      }
+    ]
+  }
+}
