@@ -8,6 +8,9 @@
     "type": "git",
     "url": "https://github.com/ivanesmantovich/halftone-theme-vsc"
   },
+  "bugs": {
+    "url": "https://github.com/ivanesmantovich/halftone-theme-vsc/issues"
+  },
   "keywords": [
     "theme",
     "color-theme",
@@ -25,9 +28,10 @@
   "contributes": {
     "themes": [
       {
-        "label": "Halftone",
+        "label": "Halftone Light",
         "uiTheme": "vs",
-        "path": "./themes/Halftone Theme-color-theme.json"
+        "path": "./themes/halftone-light.json"
+      },
       }
     ]
   }
