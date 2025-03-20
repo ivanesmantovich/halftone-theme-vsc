@@ -31,7 +31,6 @@
         "label": "Halftone Light",
         "uiTheme": "vs",
         "path": "./themes/halftone-light.json"
-      },
       }
     ]
   }
