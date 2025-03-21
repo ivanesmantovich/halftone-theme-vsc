@@ -93,6 +93,9 @@
     "editor.focusedStackFrameHighlightBackground": "#D5D5D580",
     "editor.linkedEditingBackground": "#D5D5D580", // HIGHLIGHTS MATCHING TAG, DEFAULT IS RED
 
+    // Space around the centered editor
+    "editorPane.background": "#FAFAFA",
+
     // Focused Item Border
     "focusBorder": "#D5D5D5",
 
