@@ -172,10 +172,6 @@
     "editorOverviewRuler.warningForeground": "#cc8500",
     "notificationsWarningIcon.foreground": "#cc8500",
 
-    // Git
-    "gitDecoration.untrackedResourceForeground": "#5E5E5E",
-    "gitDecoration.modifiedResourceForeground": "#cc8500",
-
     // Merge Conflict TODO
 
     // Side Bar
@@ -195,12 +191,6 @@
     "button.foreground": "#FFFFFF",
     "button.hoverBackground": "#333333",
     "inputOption.activeBorder": "#8e8e93",
-
-    // Diff Editor
-    "diffEditor.insertedTextBackground": "#4DFF0014", // 25% Alpha
-    "diffEditor.insertedLineBackground": "#4DFF0014", // 25% Alpha
-    "diffEditor.removedTextBackground": "#FF190014", // 25% Alpha
-    "diffEditor.removedLineBackground": "#FF190014", // 25% Alpha
 
     // Checkbox TODO
 
@@ -240,12 +230,6 @@
     // Matching bracket
     "editorBracketMatch.background": "#D5D5D5CC",
     "editorBracketMatch.border": "#D5D5D5",
-
-    // Git
-    "editorGutter.background": "#ffffff",
-    "editorGutter.addedBackground": "#9AB973",
-    "editorGutter.modifiedBackground": "#cc8500",
-    "editorGutter.deletedBackground": "#B22222",
 
     // Brackets
     "editorBracketHighlight.foreground1": "#7c7c7c",
