@@ -5,8 +5,9 @@
     // Editor
     "editor.background": "#FFF",
     "editor.foreground": "#444444",
-    "editorCursor.foreground": "#444444",
     "editorCursor.background": "#FFF",
+    "editorCursor.foreground": "#444444",
+    "terminalCursor.background": "#FFF",
     "terminalCursor.foreground": "#444444",
 
     // Title Bar
@@ -97,11 +98,11 @@
     "editorPane.background": "#FAFAFA",
 
     // Focused Item Border
-    "focusBorder": "#D5D5D5",
+    "focusBorder": "#b5b5b5",
 
     // Input
     "input.background": "#FFFFFF",
-    "input.border": "#F2F2F2",
+    "input.border": "#D5D5D5",
     "inputValidation.errorBackground": "#FFEDEB",
     "inputValidation.errorForeground": "#B22222",
     "inputValidation.errorBorder": "#00000000",
@@ -251,11 +252,12 @@
 
     // Autocompletion
     "editorSuggestWidget.background": "#ffffff",
+    "editorSuggestWidget.foreground": "#444",
     "editorSuggestWidget.focusHighlightForeground": "#444444",
-    "editorSuggestWidget.highlightForeground": "#2a2a2a",
+    "editorSuggestWidget.highlightForeground": "#000",
     "editorHoverWidget.highlightForeground": "#444444", // Active parameter in the documentation hint
     "editorSuggestWidget.selectedBackground": "#D5D5D566",
-    "editorSuggestWidget.selectedForeground": "#2a2a2a",
+    "editorSuggestWidget.selectedForeground": "#000",
     "editorSuggestWidget.selectedIconForeground": "#444444",
     "editorSuggestWidget.border": "#D5D5D5",
 
@@ -374,6 +376,7 @@
         "fontStyle": "bold"
       }
     },
+
     // Variable
     {
       "scope": "variable",
@@ -382,25 +385,20 @@
     // Type
     {
       "scope": "entity.name.type",
-      "settings": { "foreground": "#444", "fontStyle": "underline" }
+      "settings": { "foreground": "#515151", "fontStyle": "underline" }
     },
     {
       "scope": "support.type",
-      "settings": { "foreground": "#444", "fontStyle": "underline" }
+      "settings": { "foreground": "#515151", "fontStyle": "underline" }
     },
     {
       "scope": "storage.modifier",
-      "settings": { "foreground": "#444", "fontStyle": "italic" }
+      "settings": { "foreground": "#515151", "fontStyle": "italic" }
     },
     // function, const, let, ...
     {
       "scope": "storage.type",
       "settings": { "foreground": "#444", "fontStyle": "italic" }
-    },
-    // Arrow
-    {
-      "scope": "storage.type.function.arrow",
-      "settings": { "foreground": "#444", "fontStyle": "bold" }
     },
     // return, for, break, ...
     {
@@ -420,6 +418,7 @@
       "scope": "entity.other.attribute-name.id.css",
       "settings": { "foreground": "#444", "fontStyle": "bold" }
     },
+
     // HTML Tag Attibute name
     {
       "scope": "entity.other.attribute-name",
@@ -433,24 +432,43 @@
       "scope": "support.type.property-name.css",
       "settings": { "foreground": "#5f5f5f", "fontStyle": "italic" }
     },
-    // String
-    {
-      "scope": "string",
-      "settings": { "foreground": "#5f5f5f", "fontStyle": "italic" }
-    },
     // Numbers
     {
       "scope": "constant.numeric",
       "settings": { "foreground": "#5f5f5f" }
     },
+    // Strings
+    {
+      "scope": "string",
+      "settings": { "foreground": "#5f5f5f", "fontStyle": "italic" }
+    },
     // Arrows
     {
       "scope": "storage.type.function.arrow",
-      "settings": { "foreground": "#5f5f5f" }
+      "settings": { "foreground": "#5f5f5f", "fontStyle": "bold" }
     },
-    // Brace
+    // Braces
     {
       "scope": "meta.brace",
+      "settings": { "foreground": "#7c7c7c" }
+    },
+    // Equal signs
+    {
+      "scope": "keyword.operator.assignment",
+      "settings": {"foreground": "#7c7c7c" }
+    },
+    // ! and &&
+    {
+      "scope": "keyword.operator.logical",
+      "settings": {"foreground": "#7c7c7c" }
+    },
+    {
+      "scope": "keyword.operator.type",
+      "settings": {"foreground": "#7c7c7c" }
+    },
+    // Dots
+    {
+      "scope": "punctuation.accessor",
       "settings": { "foreground": "#7c7c7c" }
     },
     {

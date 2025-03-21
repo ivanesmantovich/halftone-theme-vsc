@@ -30,7 +30,12 @@
       {
         "label": "Halftone Light",
         "uiTheme": "vs",
-        "path": "./themes/halftone-light.json"
+        "path": "./themes/halftone-light-color-theme.json"
+      },
+      {
+        "label": "Halftone Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/halftone-dark-color-theme.json"
       }
     ]
   }
