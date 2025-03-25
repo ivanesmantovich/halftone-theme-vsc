@@ -1,5 +1,5 @@
 {
-  "name": "Halftone Theme",
+  "name": "Halftone Light",
 
   "colors": {
     // Editor
@@ -15,12 +15,16 @@
     "titleBar.inactiveBackground": "#FFFFFF",
     "titleBar.activeForeground": "#444444",
     "titleBar.inactiveForeground": "#8e8e93",
-
     "titleBar.border": "#D5D5D5",
 
+    // Editor Headers
     "editorGroupHeader.tabsBackground": "#FAFAFA",
     "editorGroupHeader.noTabsBackground": "#FAFAFA",
     "editorGroupHeader.border": "#D5D5D5",
+
+    // Editor Groups
+    "editorGroup.dropBackground": "#007aff33",
+    "editorGroup.border": "#D5D5D5",
 
     // Activity Bar
     "activityBar.background": "#FAFAFA",
@@ -38,7 +42,10 @@
     "activityBarBadge.background": "#444444",
     "activityBarBadge.foreground": "#FFF",
 
-    // Menu Bar TODO (Not shown in macOS, 99% of people have it hidden)
+    // Default Light Modern Menu Bar (Not shown in macOS)
+    "menu.border": "#D5D5D5",
+		"menu.selectionBackground": "#005FB8",
+		"menu.selectionForeground": "#ffffff",
 
     // Command Center
     "commandCenter.background": "#FFFFFF",
@@ -62,20 +69,19 @@
     "statusBar.debuggingForeground": "#444444",
     "statusBar.noFolderForeground": "#444444",
     "statusBarItem.hoverBackground": "#D5D5D599",
+    "statusBarItem.remoteBackground": "#FAFAFA",
+    "statusBarItem.remoteForeground": "#444444",
 
     // Selection
-    "selection.background": "#D5D5D5",
-    // "editor.selectionBackground": "#5E5E5E33",
-    "editor.selectionBackground": "#D5D5D5E6",
-
-    "editor.inactiveSelectionBackground": "#5E5E5E33",
+    "selection.background": "#D5D5D5A6",
+    "editor.selectionBackground": "#D5D5D5A6",
 
     // Current Line Background
     "editor.lineHighlightBackground": "#D5D5D51A",
     "editor.lineHighlightBorder": "#D5D5D526",
 
     // Current Word, Symbol, Range Background
-    "editor.wordHighlightBackground": "#D5D5D580", // Matching Tag, 70% Alpha
+    "editor.wordHighlightBackground": "#D5D5D580",
     "editor.wordHighlightBorder": "#D5D5D5CC",
     "editor.wordHighlightStrongBackground": "#D5D5D580",
     "editor.wordHighlightStrongBorder": "#D5D5D5CC",
@@ -93,6 +99,13 @@
     "editor.stackFrameHighlightBackground": "#D5D5D580",
     "editor.focusedStackFrameHighlightBackground": "#D5D5D580",
     "editor.linkedEditingBackground": "#D5D5D580", // HIGHLIGHTS MATCHING TAG, DEFAULT IS RED
+
+    // Indent Guides
+    "editorIndentGuide.background": "#dfdfdf",
+    "editorIndentGuide.activeBackground": "#bbbbbb",
+
+    // Hide noisy Terminal Overview Ruler
+    "terminalOverviewRuler.border": "#FAFAFA",
 
     // Space around the centered editor
     "editorPane.background": "#FAFAFA",
@@ -173,8 +186,6 @@
     "editorOverviewRuler.warningForeground": "#cc8500",
     "notificationsWarningIcon.foreground": "#cc8500",
 
-    // Merge Conflict TODO
-
     // Side Bar
     "sideBar.foreground": "#2a2a2a",
     "sideBar.background": "#FAFAFA",
@@ -193,22 +204,17 @@
     "button.hoverBackground": "#333333",
     "inputOption.activeBorder": "#8e8e93",
 
-    // Checkbox TODO
-
-    // Dropdown TODO
-
-    // Editor Groups
-    "editorGroup.dropBackground": "#007aff33",
-    "editorGroup.border": "#D5D5D5",
-
     // Tabs
     "tab.border": "#D5D5D5",
-    "tab.inactiveBackground": "#f3f3f3",
-    "tab.inactiveForeground": "#7d7d7d",
+    "tab.inactiveBackground": "#FAFAFA",
+    "tab.inactiveForeground": "#5f5f5f",
     "tab.unfocusedInactiveForeground": "#999999",
-    "tab.activeBackground": "#FAFAFA",
-    "tab.activeForeground": "#444444",
+    "tab.activeBackground": "#FFF",
+    "tab.activeBorder": "#FFF",
+    "tab.unfocusedActiveBorder": "#FFF",
+    "tab.activeForeground": "#2a2a2a",
     "tab.hoverBackground": "#F2F2F2",
+    "tab.dragAndDropBorder": "#5f5f5f",
 
     // Bottom Panel
     "panel.background": "#fbfbfa",
@@ -228,8 +234,8 @@
     // Unused Source Code
     "editorUnnecessaryCode.opacity": "#444444B3",
 
-    // Matching bracket
-    "editorBracketMatch.background": "#D5D5D5CC",
+    // Matching brackets
+    "editorBracketMatch.background": "#D5D5D580",
     "editorBracketMatch.border": "#D5D5D5",
 
     // Brackets
@@ -239,26 +245,33 @@
     "editorBracketHighlight.foreground4": "#7c7c7c",
     "editorBracketHighlight.foreground5": "#7c7c7c",
     "editorBracketHighlight.foreground6": "#7c7c7c",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#7c7c7c",
 
     // Widgets (find, documentation on hover, ...)
     "editorWidget.background": "#FAFAFA",
     "editorWidget.foreground": "#444",
     "widget.border": "#D5D5D5",
-    "widget.shadow": "#0000",
 
     // Peek View
     "peekView.border": "#D5D5D5",
     "peekViewEditor.background": "#FFFFFF",
+    "peekViewResult.background": "#FAFAFA",
+    "peekViewResult.lineForeground": "#444",
+    "peekViewResult.matchHighlightBackground": "#D5D5D5E6",
+    "peekViewEditor.matchHighlightBorder": "#D5D5D5",
+    "peekViewTitle.background": "#FAFAFA",
+    "peekViewResult.selectionBackground": "#D5D5D580",
+    "peekViewEditor.matchHighlightBackground": "#D5D5D580",
 
     // Autocompletion
     "editorSuggestWidget.background": "#ffffff",
     "editorSuggestWidget.foreground": "#444",
-    "editorSuggestWidget.focusHighlightForeground": "#444444",
-    "editorSuggestWidget.highlightForeground": "#000",
-    "editorHoverWidget.highlightForeground": "#444444", // Active parameter in the documentation hint
     "editorSuggestWidget.selectedBackground": "#D5D5D566",
     "editorSuggestWidget.selectedForeground": "#000",
-    "editorSuggestWidget.selectedIconForeground": "#444444",
+    "editorSuggestWidget.selectedIconForeground": "#000",
+    "editorSuggestWidget.highlightForeground": "#000",
+    "editorSuggestWidget.focusHighlightForeground": "#000",
+    "editorHoverWidget.highlightForeground": "#000", // Active parameter in the documentation hint
     "editorSuggestWidget.border": "#D5D5D5",
 
     // Quick Picker
@@ -273,7 +286,7 @@
 
     // Breadcrumbs
     "breadcrumbPicker.background": "#FAFAFA",
-    "breadcrumb.background": "#FAFAFA",
+    "breadcrumb.background": "#FFF",
     "breadcrumb.foreground": "#444",
     "breadcrumb.activeSelectionForeground": "#2a2a2a",
 
@@ -316,9 +329,8 @@
     "terminal.background": "#FAFAFA"
   },
 
-  // semanticTokenColors OVERRIDE tokenColors
+  // semanticTokenColors override tokenColors
   "semanticHighlighting": true,
-
   "semanticTokenColors": {
     "function": "#2a2a2a",
     "method": "#2a2a2a",
