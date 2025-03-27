@@ -14,16 +14,20 @@ Shape processing is also less complex and requires fewer brain resources, which 
 People with color vision impairments can sport this theme just like the rest of us, which I think is cool.
 
 ## Showcase
+<p align="center">
 <img width="1275" alt="Screenshot Light Mode" src="./halftone-light.png">
 <img width="1275" alt="Screenshot Dark Mode" src="./halftone-dark.png">
+<sub><samp>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Font: <a href="https://developer.apple.com/fonts">SF Mono</a><br>
+&nbsp;&nbsp;File Icons: <a href="https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme">Material</a><br>
+&nbsp;&nbsp;&nbsp;Product Icons: <a href="https://marketplace.visualstudio.com/items?itemName=antfu.icons-carbon">Carbon</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
 
 ## Match with System
 ```jsonc
 // .vscode/setting.json
 {
   "window.autoDetectColorScheme": true,
-  "workbench.preferredLightColorTheme": "Vitesse Light",
-  "workbench.preferredDarkColorTheme": "Vitesse Dark",
+  "workbench.preferredLightColorTheme": "Halftone Light",
+  "workbench.preferredDarkColorTheme": "Halftone Dark",
 }
 ```
 
