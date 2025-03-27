@@ -34,11 +34,11 @@ People with color vision impairments can sport this theme just like the rest of 
 ```
 
 ## Appendix
-> When I was a child, I used to speak like a child, think like a child, reason like a child;
+> When I was a child, I used to speak like a child, think like a child, reason like a child;<br>
 when I became a man, I did away with childish things.
 
-> Syntax highlighting is juvenile.
-When I was a child, I was taught arithmetic using colored rods.
+> Syntax highlighting is juvenile.<br>
+When I was a child, I was taught arithmetic using colored rods.<br>
 I grew up and today I use monochromatic numerals.
 
 <i>Rob Pike to a user requesting syntax highlighting in the Go Playground</i>
