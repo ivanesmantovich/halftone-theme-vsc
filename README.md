@@ -7,10 +7,12 @@
 </p>
 
 ## Syntax Highlighting is a zero-sum game
-Halftone thoughtfully uses typographic emphasis, taking care to avoid overuse which can defeat the purpose by emphasizing too many elements.
+Halftone thoughtfully uses typographic emphasis, taking care to avoid overuse which can defeat the purpose by emphasizing<br>too many elements.<br>
 If everything is important, nothing is.
-Halftone relies on underlines, bold and italic, because the human brain recognizes shape faster than color.
+
+Halftone relies on underlines, bold and italic, because the human brain recognizes shape faster than color.<br>
 Shape processing is also less complex and requires fewer brain resources, which can be useful for ADHD folks.
+
 People with color vision impairments can sport this theme just like the rest of us, which I think is cool.
 
 ## Showcase
