@@ -14,7 +14,18 @@ Shape processing is also less complex and requires fewer brain resources, which 
 People with color vision impairments can sport this theme just like the rest of us, which I think is cool.
 
 ## Showcase
-🚧
+<img width="1275" alt="Screenshot Light Mode" src="./halftone-light.png">
+<img width="1275" alt="Screenshot Dark Mode" src="./halftone-dark.png">
+
+## Match with System
+```jsonc
+// .vscode/setting.json
+{
+  "window.autoDetectColorScheme": true,
+  "workbench.preferredLightColorTheme": "Vitesse Light",
+  "workbench.preferredDarkColorTheme": "Vitesse Dark",
+}
+```
 
 ## Appendix
 > When I was a child, I used to speak like a child, think like a child, reason like a child;
