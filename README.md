@@ -7,7 +7,7 @@
 </p>
 
 ## Syntax Highlighting is a zero-sum game
-Halftone thoughtfully uses typographic emphasis, taking care to avoid overuse which can defeat the purpose by emphasizing<br>too many elements.<br>
+Halftone thoughtfully uses typographic emphasis, taking care to avoid overuse which can defeat the purpose by emphasizing too many elements.<br>
 If everything is important, nothing is.
 
 Halftone relies on underlines, bold and italic, because the human brain recognizes shape faster than color.<br>
