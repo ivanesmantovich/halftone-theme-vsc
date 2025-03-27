@@ -289,6 +289,9 @@
     // Terminal
     "terminal.background": "#181818",
 
+    // Cursor
+    "charts.red": "#F85149",
+
     // --- Customized Dark Modern Base ---
     "chat.slashCommandBackground": "#34414B",
     "chat.slashCommandForeground": "#40A6FF",

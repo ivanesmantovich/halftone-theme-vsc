@@ -53,7 +53,7 @@
     "commandCenter.border": "#D5D5D5",
     "commandCenter.activeBorder": "#D5D5D5",
     "commandCenter.inactiveBorder": "#D5D5D5",
-    "commandCenter.foreground": "#444444",
+    "commandCenter.foreground": "#5f5f5f",
     "commandCenter.activeBackground": "#D5D5D533",
     "commandCenter.activeForeground": "#444444",
 
@@ -326,7 +326,10 @@
     "symbolIcon.snippetForeground": "#444444",
 
     // Terminal
-    "terminal.background": "#FAFAFA"
+    "terminal.background": "#FAFAFA",
+
+    // Cursor
+    "charts.red": "#B22222"
   },
 
   // semanticTokenColors override tokenColors
@@ -434,30 +437,30 @@
     // HTML Tag Attibute name
     {
       "scope": "entity.other.attribute-name",
-      "settings": { "foreground": "#5f5f5f" }
+      "settings": { "foreground": "#595959" }
     },
     {
       "scope": "support.type.property-name.json",
-      "settings": { "foreground": "#5f5f5f", "fontStyle": "italic" }
+      "settings": { "foreground": "#595959", "fontStyle": "italic" }
     },
     {
       "scope": "support.type.property-name.css",
-      "settings": { "foreground": "#5f5f5f", "fontStyle": "italic" }
+      "settings": { "foreground": "#595959", "fontStyle": "italic" }
     },
     // Numbers
     {
       "scope": "constant.numeric",
-      "settings": { "foreground": "#5f5f5f" }
+      "settings": { "foreground": "#595959" }
     },
     // Strings
     {
       "scope": "string",
-      "settings": { "foreground": "#5f5f5f", "fontStyle": "italic" }
+      "settings": { "foreground": "#595959", "fontStyle": "italic" }
     },
     // Arrows
     {
       "scope": "storage.type.function.arrow",
-      "settings": { "foreground": "#5f5f5f", "fontStyle": "bold" }
+      "settings": { "foreground": "#595959", "fontStyle": "bold" }
     },
     // Braces
     {
