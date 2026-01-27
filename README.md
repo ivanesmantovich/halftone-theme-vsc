@@ -1,4 +1,14 @@
 <h1 align="center">Halftone Theme</h1>
+
+<p align="center">
+  <a href="https://marketplace.visualstudio.com/items?itemName=ive.halftone-theme" target="__blank">
+    <img
+      src="https://img.shields.io/visual-studio-marketplace/v/ive.halftone-theme.svg?color=6b7280&label=Marketplace&logo=visual-studio-code"
+      alt="Visual Studio Marketplace Version"
+    />
+  </a>
+</p>
+
 <p align="middle">
   <img src="readme-icon.webp" width="500" />
 </p>
